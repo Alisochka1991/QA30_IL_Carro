@@ -86,4 +86,9 @@ public class CarHelper extends HelperBase {
     public void attachPhoto() {
    wd.findElement(By.id("photos")).sendKeys("D:\\QA30\\QA30_IL_Carro\\auto.jpeg");
     }
+
+    public void submitForm2()
+    {
+        click(By.xpath(("//button[normalize-space()='Submit'])[1]"));
+    }
 }

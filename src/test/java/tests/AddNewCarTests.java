@@ -1,5 +1,6 @@
 package tests;
 
+import manager.CarHelper;
 import models.Car;
 import models.User;
 import org.testng.annotations.BeforeMethod;
@@ -40,8 +41,9 @@ public class AddNewCarTests extends TestBase {
 
     app.getCar().openCarForm();
     app.getCar().fillNewCar(car);
-   app.getCar().attachPhoto();
-   app.getUserHelper().submitForm();
+    app.getCar().attachPhoto();
+    //app.getUserHelper().pause(1000);
+    app.getCar().submitForm2();
     }
 
 }
