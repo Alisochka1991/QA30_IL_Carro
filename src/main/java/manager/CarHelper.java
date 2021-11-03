@@ -83,12 +83,12 @@ public class CarHelper extends HelperBase {
 
     }
 
-    public void attachPhoto() {
-   wd.findElement(By.id("photos")).sendKeys("D:\\QA30\\QA30_IL_Carro\\auto.jpeg");
+    public void attachPhoto(String link) {
+   wd.findElement(By.id("photos")).sendKeys(link);
     }
 
-    public void submitForm2()
-    {
-        click(By.xpath(("//button[normalize-space()='Submit'])[1]"));
+
+    public void submitAddedCar() {
+click(By.xpath("//button[.='Search cars']"));
     }
 }
