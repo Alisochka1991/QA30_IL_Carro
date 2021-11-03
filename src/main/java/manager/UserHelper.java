@@ -1,9 +1,7 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -81,5 +79,27 @@ public class UserHelper extends HelperBase {
        return wd.findElements(By.xpath("//h1[contains(text(),'Car added')]")).size()>0;
         //new WebDriverWait(wd, 10).until(ExpectedConditions.visibilityOf(wd.findElement(By.className("dialog-container"))));
        // String text = wd.findElement(By)
+    }
+
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"),user.getName());
+        type(By.id("lastName"),user.getLastname());
+        type(By.id("email"),user.getEmail());
+        type(By.id("password"),user.getPassword());
+       // click(By.cssSelector("label[for='terms-of-use']"));
+        JavascriptExecutor js= (JavascriptExecutor) wd; //chtobi cliknut v okosko soglasheniya
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+    }
+
+    public boolean isRegistered() {
+        WebDriverWait wait = new WebDriverWait(wd, 10); //skolko sekund budet zhdat brauser etogo okna
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+        return wd.findElement(By.cssSelector(".dialog-container h1")).getText().contains("Registered");
     }
 }
