@@ -1,0 +1,3 @@
+16:34:54 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+16:34:59 [Test worker] INFO  tests.TestBase - Start test --->addNewCarPositive2
+16:35:20 [Test worker] INFO  tests.TestBase - The end of test---->addNewCarPositive2
