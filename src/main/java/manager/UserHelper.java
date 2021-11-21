@@ -41,12 +41,12 @@ public class UserHelper extends HelperBase {
 
     public void submitForm()
     {
-       // click(By.xpath("//button[@type='submit']"));
-        WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
-        new WebDriverWait(wd,10)
-                .until(ExpectedConditions.elementToBeClickable(submit));
+       click(By.xpath("//button[@type='submit']"));
+       // WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+      //  new WebDriverWait(wd,10)
+          //      .until(ExpectedConditions.elementToBeClickable(submit));
 
-        submit.submit();
+       // submit.submit();
     }
 
 
