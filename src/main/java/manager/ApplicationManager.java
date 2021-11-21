@@ -12,6 +12,7 @@ public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
     CarHelper car;
+    SearchHelper search;
 
     public void init()
     {
@@ -39,4 +40,8 @@ public class ApplicationManager {
         wd.quit();
     }
 
+
+    public SearchHelper search() {
+       return search;
+    }
 }

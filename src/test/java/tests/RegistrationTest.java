@@ -23,7 +23,7 @@ public class RegistrationTest extends TestBase{
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
         app.getUserHelper().submitForm();
-        app.getUserHelper().clickPolicy();
+       // app.getUserHelper().clickPolicy();
         Assert.assertTrue(app.getUserHelper().isRegistered());
     }
 }

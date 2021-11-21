@@ -1,0 +1,7 @@
+19:43:13 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+19:43:18 [Test worker] INFO  tests.TestBase - Start test --->registrationPositiveTest
+19:43:18 [Test worker] INFO  tests.TestBase - Test Registration Positive start with >>>>Alisa  &&  alisa2598@gmail.com && 212229Alisa
+19:43:20 [Test worker] INFO  tests.TestBase - The end of test---->registrationPositiveTest
+19:43:41 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+19:43:48 [Test worker] INFO  tests.TestBase - Start test --->searchTest
+19:43:48 [Test worker] INFO  tests.TestBase - The end of test---->searchTest

@@ -1,0 +1,16 @@
+20:40:01 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+20:40:09 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess2WithSTR
+20:40:09 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess2WithSTR
+20:40:25 [Test worker] INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#example-modal-sizes-title-lg"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUNK-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Punk\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49261}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d4b2ea2edcc90b256681d25e3eb576e
+*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
+20:40:25 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess2WithSTR
+20:40:25 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess2WithSTR
+20:40:35 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess2WithSTR
+20:40:35 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess2WithSTR

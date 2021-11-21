@@ -1,0 +1,6 @@
+19:01:24 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+19:01:31 [Test worker] INFO  tests.TestBase - Start test --->searchTest
+19:01:31 [Test worker] INFO  tests.TestBase - The end of test---->searchTest
+19:01:54 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+19:01:58 [Test worker] INFO  tests.TestBase - Start test --->searchTest
+19:01:58 [Test worker] INFO  tests.TestBase - The end of test---->searchTest
