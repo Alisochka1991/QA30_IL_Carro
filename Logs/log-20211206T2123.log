@@ -1,0 +1,17 @@
+21:23:06 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+21:23:09 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+21:23:09 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess
+21:23:09 [Test worker] INFO  tests.TestBase - With user ---->models.User@74834ea4
+21:23:09 [Test worker] INFO  manager.NgListener - Success test ---->loginSuccess
+21:23:24 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
+21:23:24 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+21:23:24 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess
+21:23:24 [Test worker] INFO  tests.TestBase - With user ---->models.User@53614079
+21:23:26 [Test worker] INFO  manager.NgListener - Test Failure -->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-ctp-c100="" autocomplete="username" formcontrolname="email" id="email" type="email" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1217, 284). Other element would receive the click: <div _ngcontent-ctp-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58a4203ad219fee1cfa35183f9f7dd70
+21:23:31 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
