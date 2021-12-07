@@ -14,7 +14,8 @@ public class UserHelper extends HelperBase {
         super(wd);
     }
 
-    public boolean islogInPresent() {
+
+    public boolean isloginPresent() {
         return isElementPresent(By.xpath("//a[text()=' Log in ']"));
     }
 
@@ -39,14 +40,14 @@ public class UserHelper extends HelperBase {
     }
 
 
-    public void submitForm()
-    {
-       click(By.xpath("//button[@type='submit']"));
-       // WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
-      //  new WebDriverWait(wd,10)
-          //      .until(ExpectedConditions.elementToBeClickable(submit));
+    public void submitForm() {
+        // click(By.cssSelector("[type='submit']"));
+        WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.elementToBeClickable(submit));
 
-       // submit.submit();
+        submit.submit();
+
     }
 
 
@@ -104,15 +105,39 @@ public class UserHelper extends HelperBase {
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
         return wd.findElement(By.cssSelector(".dialog-container h1")).getText().contains("Registered");
     }
+    public void checkPolicy() {
+        boolean isselected = wd.findElement(By.id("terms-of-use")).isSelected();
+        if(!isselected) {
+            click(By.xpath("//label[@for='terms-of-use']"));
+        }
+        //click(By.id("terms-of-use"));
 
-    public void clickPolicy() {
-        Actions actions = new Actions(wd);
-        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
-        Rectangle rect = container.getRect();
-      //  int x = rect.getX() + rect.getWidth()/10;
-        int x = rect.getX() + 5;// pixeli
-       // int x = rect.getX() + 2%*rect.getWidth();
-        int y = rect.getY()+(1/4*rect.getHeight()/4);
-        actions.moveByOffset(x,y).click().perform();
+        // click(By.cssSelector("label[for='terms-of-use']")); //===click(By.xpath("//label[contains(text(),'I agree to the')]"));
+        // click(By.cssSelector(".checkbox-container input")) ====click(By.id("terms-of-use"));
+//        click(By.cssSelector(".checkbox-container"));
+//        click(By.cssSelector(".checkbox-container"));
+
+//        JavascriptExecutor js= (JavascriptExecutor) wd;
+//        js.executeScript("document.querySelector('#terms-of-use').click();");
+//        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+//        click(By.id("email"));
+//        Actions actions = new Actions(wd);
+//        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
+//
+//        Rectangle rect = container.getRect();
+//       // int x= rect.getX() + rect.getWidth()/10;
+//        int x= rect.getX() + 5;
+//        int y = rect.getY()+(rect.getHeight()/4);
+//     actions.moveByOffset(x,y).click().perform();
+    }
+
+    public boolean isErrorPasswordDisplayed() {
+
+        return isElementPresent(By.xpath("//*[text()='Password must contain minimum 8 symbols']"));
+
+    }
+    public boolean isYallaButtonActive() {
+        return wd.findElement(By.xpath("//button[@type='submit']")).isEnabled();
+        // return isElementPresent(By.xpath("//button[@disabled]"));
     }
 }

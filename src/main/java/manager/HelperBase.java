@@ -1,8 +1,10 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 
 public class HelperBase {
     WebDriver wd;
@@ -40,4 +42,6 @@ public class HelperBase {
         }
     }
 
-}
+
+    }
+

@@ -13,8 +13,8 @@ public class AddNewCarTests extends TestBase {
     @BeforeMethod
     public void precondition()
     {
-        if(app.getUserHelper().islogInPresent()){
-            app.getUserHelper().login(new User().withEmail("alisiaagranov@gmail.com").withPassword("212229Alisa"));
+        if(app.getUserHelper().isloginPresent()){
+            app.getUserHelper().login(new User().withEmail(app.email()).withPassword(app.password()));
         }
 
     }
@@ -44,7 +44,7 @@ public class AddNewCarTests extends TestBase {
 
     app.getCar().openCarForm();
     app.getCar().fillNewCar(car);
-    app.getCar().attachPhoto("D:\\QA30\\QA30_IL_Carro\\auto.jpeg");
+    app.getCar().attachPhoto("C:\\Study\\QA30\\QA30_IL_Carro\\auto.jpeg");
     app.getUserHelper().submitForm();
     Assert.assertTrue(app.getUserHelper().isAdded());
 

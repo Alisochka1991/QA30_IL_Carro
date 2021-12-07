@@ -1,0 +1,10 @@
+23:23:03 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:23:05 [Test worker] INFO  tests.TestBase - Start test --->registrationSuccessTest
+23:23:05 [Test worker] INFO  tests.TestBase - models.User@727c3970
+23:23:06 [Test worker] INFO  tests.TestBase - The end of test---->registrationSuccessTest
+23:23:06 [Test worker] INFO  tests.TestBase - Start test --->registrationSuccessTest
+23:23:22 [Test worker] INFO  tests.TestBase - models.User@72667a8a
+23:23:23 [Test worker] INFO  tests.TestBase - The end of test---->registrationSuccessTest
+23:23:23 [Test worker] INFO  tests.TestBase - Start test --->registrationSuccessTest
+23:23:38 [Test worker] INFO  tests.TestBase - models.User@38c112cb
+23:23:39 [Test worker] INFO  tests.TestBase - The end of test---->registrationSuccessTest

@@ -16,7 +16,7 @@ public class LoginTest extends TestBase{
     @BeforeMethod
     public void precondition()
     {
-        if(!app.getUserHelper().islogInPresent())//esli NET knopki LOGIN to ya zaloginena i nado razloginitsa
+        if(!app.getUserHelper().isloginPresent())//esli NET knopki LOGIN to ya zaloginena i nado razloginitsa
         {
        app.getUserHelper().logout();
         }

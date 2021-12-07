@@ -1,0 +1,76 @@
+18:00:02 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+18:00:04 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+18:00:04 [Test worker] INFO  tests.TestBase - Start test --->addNewCarPositive
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+18:00:04 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+18:00:04 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
+18:00:04 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
+18:00:04 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+18:00:04 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+18:00:04 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+18:00:05 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+18:00:05 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+18:00:05 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+18:00:06 [Test worker] INFO  manager.MyListener - Start search element --->By.id: 1
+18:00:06 [Test worker] INFO  manager.MyListener - The element --->By.id: 1 was found
+18:00:06 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: h2
+18:00:06 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: h2 was found
+18:00:06 [Test worker] INFO  manager.MyListener - Start search element --->By.id: pickUpPlace
+18:00:06 [Test worker] INFO  manager.MyListener - The element --->By.id: pickUpPlace was found
+18:00:06 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+18:00:07 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: make
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: make was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: model
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: model was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: year
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: year was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: engine
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: engine was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: fuel
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: fuel was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "Petrol"]
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "Petrol"] was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: gear
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: gear was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "MT"]
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "MT"] was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.id: wheelsDrive
+18:00:08 [Test worker] INFO  manager.MyListener - The element --->By.id: wheelsDrive was found
+18:00:08 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "AWD"]
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "AWD"] was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: doors
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: doors was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: doors
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: doors was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: seats
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: seats was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: class
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: class was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: fuelConsumption
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: fuelConsumption was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: serialNumber
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: serialNumber was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: price
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: price was found
+18:00:09 [Test worker] INFO  manager.MyListener - Start search element --->By.id: distance
+18:00:09 [Test worker] INFO  manager.MyListener - The element --->By.id: distance was found
+18:00:10 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: .feature-input
+18:00:10 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: .feature-input was found
+18:00:10 [Test worker] INFO  manager.MyListener - Start search element --->By.id: about
+18:00:10 [Test worker] INFO  manager.MyListener - The element --->By.id: about was found
+18:00:10 [Test worker] INFO  manager.MyListener - Start search element --->By.id: photos
+18:00:10 [Test worker] INFO  manager.MyListener - The element --->By.id: photos was found
+18:00:10 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+18:00:10 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+18:00:12 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //h1[contains(text(),'Car added')]
+18:00:13 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //h1[contains(text(),'Car added')] was found
+18:00:13 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[.='Search cars']
+18:00:13 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[.='Search cars'] was found
+18:00:13 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+18:00:13 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+18:00:13 [Test worker] INFO  tests.TestBase - The end of test---->addNewCarPositive
