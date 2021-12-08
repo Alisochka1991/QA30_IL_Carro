@@ -1,6 +1,6 @@
 package tests;
 
-import jdk.nashorn.internal.runtime.logging.DebugLogger;
+
 import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
