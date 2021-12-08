@@ -1,210 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2021-12-07T16:27:11" hostname="LAPTOP-TKIRCF4L" time="25.269">
+<testsuite name="tests.LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-08T20:49:56" hostname="LAPTOP-TKIRCF4L" time="9.526">
   <properties/>
-  <testcase name="loginSuccess[0](models.User@90033)" classname="tests.LoginTest" time="8.522">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#example-modal-sizes-title-lg&quot;}&#10;  (Session info: chrome=96.0.4664.45)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5096e774123b14ee05b4b6a12996ef39&#10;*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#example-modal-sizes-title-lg&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-	at manager.NgListener.onTestFailure(NgListener.java:29)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
-  </testcase>
-  <testcase name="loginSuccess[1](models.User@4df9d489)" classname="tests.LoginTest" time="8.443">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#example-modal-sizes-title-lg&quot;}&#10;  (Session info: chrome=96.0.4664.45)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5096e774123b14ee05b4b6a12996ef39&#10;*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#example-modal-sizes-title-lg&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-	at manager.NgListener.onTestFailure(NgListener.java:29)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
-  </testcase>
-  <system-out><![CDATA[18:27:11 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
-18:27:11 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
-18:27:11 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
-18:27:11 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess
-18:27:11 [Test worker] INFO  tests.TestBase - With user ---->models.User@90033
-18:27:11 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
-18:27:11 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
-18:27:11 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
-18:27:11 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
-18:27:11 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
-18:27:11 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
-18:27:12 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
-18:27:12 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
-18:27:12 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: #example-modal-sizes-title-lg
-18:27:20 [Test worker] INFO  manager.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#example-modal-sizes-title-lg"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-18:27:20 [Test worker] INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1640.png
-18:27:20 [Test worker] INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#example-modal-sizes-title-lg"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-18:27:20 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
-18:27:20 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
-18:27:20 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
-18:27:20 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
-18:27:20 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
-18:27:20 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
-18:27:20 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
-18:27:28 [Test worker] INFO  manager.NgListener - Start of test ---->loginSuccess
-18:27:28 [Test worker] INFO  tests.TestBase - With user ---->models.User@4df9d489
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
-18:27:28 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
-18:27:28 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: #example-modal-sizes-title-lg
-18:27:36 [Test worker] INFO  manager.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#example-modal-sizes-title-lg"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-18:27:36 [Test worker] INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1656.png
-18:27:36 [Test worker] INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#example-modal-sizes-title-lg"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096e774123b14ee05b4b6a12996ef39
-*** Element info: {Using=css selector, value=#example-modal-sizes-title-lg}
-18:27:36 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
-18:27:37 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
-18:27:37 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
-18:27:37 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
-18:27:37 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
+  <testcase name="loginSuccess[0](models.User@289fd21d)" classname="tests.LoginTest" time="0.452"/>
+  <testcase name="loginSuccess[1](models.User@1126e444)" classname="tests.LoginTest" time="0.458"/>
+  <system-out><![CDATA[22:49:56 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+22:49:56 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+22:49:56 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+22:49:56 [Test worker] INFO  tests.TestBase - With user ---->models.User@289fd21d
+22:49:56 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+22:49:56 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+22:49:56 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
+22:49:56 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
+22:49:56 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
+22:49:56 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
+22:49:56 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+22:49:56 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+22:49:57 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+22:49:57 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+22:49:57 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+22:49:57 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+22:49:57 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
+22:49:57 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+22:49:57 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+22:50:05 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+22:50:05 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+22:50:05 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+22:50:05 [Test worker] INFO  tests.TestBase - With user ---->models.User@1126e444
+22:50:05 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+22:50:05 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+22:50:05 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
+22:50:05 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
+22:50:05 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
+22:50:05 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
+22:50:06 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+22:50:06 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+22:50:06 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+22:50:07 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+22:50:07 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+22:50:07 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+22:50:07 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

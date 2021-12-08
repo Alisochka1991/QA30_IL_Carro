@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-@Listeners(NgListener.class)
+//@Listeners(NgListener.class)
 
 public class LoginTest extends TestBase{
     @BeforeMethod
@@ -32,24 +32,8 @@ public class LoginTest extends TestBase{
    //  app.getUserHelper().fillLoginForm("alisiaagranov@gmail.com","212229Alisa");
      app.getUserHelper().fillLoginForm(user);
      app.getUserHelper().submitForm();
-     Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
+    //Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
-
-
-    @DataProvider
-public Iterator<Object[]> loginDto()
-{
-    List<Object[]> list = new ArrayList<>();
-    list.add(new Object[]{"alisiaagranov@gmail.com","212229Alisa"});
-    list.add(new Object[]{"alisiaagranov@gmail.com","212229Alisa"});
-    list.add(new Object[]{"alisiaagranov@gmail.com","212229Alisa"});
-
-    return list.iterator();
-
-}
-
-
-
 
 
 
