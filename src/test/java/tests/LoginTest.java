@@ -1,14 +1,11 @@
 package tests;
 
 import manager.MyDataProvider;
-import manager.NgListener;
+
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 //@Listeners(NgListener.class)
 
