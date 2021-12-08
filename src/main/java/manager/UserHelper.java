@@ -54,9 +54,10 @@ public class UserHelper extends HelperBase {
 
     public boolean isLoggedSuccess()
     {
-        WebDriverWait wait = new WebDriverWait(wd, 10); //skolko sekund budet zhdat brauser etogo okna
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("#example-modal-sizes-title-lg"))));
-        return wd.findElement(By.cssSelector(".modal-title h4")).getText().contains("Thanks for submitting the form");//proverka esli mi zaloginenu u esli est slovo success
+        WebDriverWait wait = new WebDriverWait(wd,15);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+
+        return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");//proverka esli mi zaloginenu u esli est slovo success
     }
 
     public void clickOkButton() {

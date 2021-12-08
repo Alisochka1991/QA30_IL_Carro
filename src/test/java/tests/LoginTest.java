@@ -32,7 +32,7 @@ public class LoginTest extends TestBase{
    //  app.getUserHelper().fillLoginForm("alisiaagranov@gmail.com","212229Alisa");
      app.getUserHelper().fillLoginForm(user);
      app.getUserHelper().submitForm();
-    //Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
+    Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
 
 

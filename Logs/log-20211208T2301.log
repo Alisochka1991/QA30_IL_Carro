@@ -1,10 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-08T21:01:40" hostname="LAPTOP-TKIRCF4L" time="19.963">
-  <properties/>
-  <testcase name="loginSuccess2WithSTR[0](alisiaagranov@gmail.com, 212229Alisa)" classname="tests.LoginTest" time="1.278"/>
-  <testcase name="loginSuccess2WithSTR[1](alisiaagranov@gmail.com, 212229Alisa)" classname="tests.LoginTest" time="1.329"/>
-  <testcase name="loginSuccess2WithSTR[2](alisiaagranov@gmail.com, 212229Alisa)" classname="tests.LoginTest" time="0.926"/>
-  <system-out><![CDATA[23:01:40 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess2WithSTR
+23:01:03 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:01:06 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+23:01:06 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+23:01:06 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+23:01:06 [Test worker] INFO  tests.TestBase - With user ---->models.User@111da55b
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+23:01:06 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
+23:01:06 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
+23:01:06 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+23:01:06 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+23:01:06 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+23:01:07 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+23:01:07 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h2
+23:01:07 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h2 was found
+23:01:07 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+23:01:07 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+23:01:07 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+23:01:07 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+23:01:07 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
+23:01:07 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess
+23:01:07 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+23:01:15 [Test worker] INFO  tests.TestBase - With user ---->models.User@5c6b8f70
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.id: email
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.id: email was found
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.id: password
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.id: password was found
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+23:01:15 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+23:01:15 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+23:01:16 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+23:01:16 [Test worker] INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h2
+23:01:16 [Test worker] INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h2 was found
+23:01:16 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+23:01:16 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+23:01:16 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+23:01:16 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+23:01:16 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess
+23:01:38 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:01:40 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+23:01:40 [Test worker] INFO  tests.TestBase - Start test --->loginSuccess2WithSTR
 23:01:40 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
 23:01:40 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
 23:01:40 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
@@ -68,6 +110,3 @@
 23:02:00 [Test worker] INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
 23:02:00 [Test worker] INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
 23:02:00 [Test worker] INFO  tests.TestBase - The end of test---->loginSuccess2WithSTR
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
