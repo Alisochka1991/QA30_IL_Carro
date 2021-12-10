@@ -2,8 +2,8 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class SearchHelper extends HelperBase {
     public SearchHelper(WebDriver wd) {

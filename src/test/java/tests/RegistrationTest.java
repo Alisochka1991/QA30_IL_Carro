@@ -1,6 +1,5 @@
 package tests;
 
-
 import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
@@ -8,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.naming.Name;
+
 
 public class RegistrationTest extends TestBase{
     @BeforeMethod

@@ -2,10 +2,9 @@ package manager;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.ISuiteListener;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
+
+import java.util.List;
 
 
 public class NgListener implements ITestListener, ISuiteListener {
